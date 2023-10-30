@@ -1,0 +1,29 @@
+.header {
+  background-color: #7743DB;
+  color: #FFFBF5;
+}
+.header .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .wrap .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .wrap .list .item {
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.header .wrap .list .item:hover {
+  background-color: #C3ACD0;
+}

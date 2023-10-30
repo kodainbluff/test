@@ -1,0 +1,35 @@
+.header {
+   
+    background-color: #7743DB ;
+    color:  #FFFBF5;
+   
+    .wrap {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        .logo {
+        
+        }
+       
+        .list {
+           
+            display: flex;
+            
+            .item {
+           
+                padding: 12px 14px;
+                cursor: pointer;
+
+                &:hover {
+                
+                    background-color: #C3ACD0;
+                    
+            }
+            }
+        }
+    }
+}
